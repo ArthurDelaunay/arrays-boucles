@@ -79,7 +79,9 @@
 // 10 - Random and max
 const numbers = []
 for (let i = 0; i < 20; i += 1){
-    randomNumber = Math.ceil(Math.random()*100)
+    let max = 100
+    let min = 0
+    randomNumber = Math.floor(Math.random()*(max + 1)+min)
     numbers.push(randomNumber)
 }
 console.log(numbers)
