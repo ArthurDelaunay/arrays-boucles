@@ -42,25 +42,33 @@
 // console.log(reverdedSentence)
 
 // 07 - Fizzbuzz
-for (let i = 0; i <= 100; i++){
-    if (i % 3 === 0){
-        if (i % 5 === 0){
-            console.log("fizzbuzz")
-        }
-        else {
-            console.log("fizz")
-        }
-    }
-    else if (i % 5 === 0){
-        console.log("buzz")
-    }
-    else {
-        console.log (i)
-    }
+// for (let i = 0; i <= 100; i++){
+//     if (i % 3 === 0){
+//         if (i % 5 === 0){
+//             console.log("fizzbuzz")
+//         }
+//         else {
+//             console.log("fizz")
+//         }
+//     }
+//     else if (i % 5 === 0){
+//         console.log("buzz")
+//     }
+//     else {
+//         console.log (i)
+//     }
+// }
+
+// 08 - While
+let total = 0
+const limit = 10
+let i = 0
+
+while (i < limit){
+    i += 1
+    total += i
 }
-
-
-
+console.log(total)
 
 
 
