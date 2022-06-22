@@ -36,8 +36,31 @@
 // 06 - Reverse
 // const sentence = "Hello Konexio !"
 // let reverdedSentence = ""
-
 // for (i=0; i <= sentence.length; i += 1){
 //     reverdedSentence = reverdedSentence.concat(sentence.charAt(sentence.length - i))
 // }
 // console.log(reverdedSentence)
+
+// 07 - Fizzbuzz
+for (let i = 0; i <= 100; i++){
+    if (i % 3 === 0){
+        if (i % 5 === 0){
+            console.log("fizzbuzz")
+        }
+        else {
+            console.log("fizz")
+        }
+    }
+    else if (i % 5 === 0){
+        console.log("buzz")
+    }
+    else {
+        console.log (i)
+    }
+}
+
+
+
+
+
+
