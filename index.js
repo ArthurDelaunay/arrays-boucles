@@ -71,9 +71,22 @@
 // console.log(total)
 
 // 09 - Sans boucle
-const students = ["mago","aurélien","arthur","jad","clara","danh","edaly","emad","florent","florez","julien","lynda","rayan","dushen","walid1","cinnie","lucas","thomas","wade","walid2"]
-let random = Math.ceil(Math.random() * students.length)
-indexRandom = random -1
-console.log(students[indexRandom])
+// const students = ["mago","aurélien","arthur","jad","clara","danh","edaly","emad","florent","florez","julien","lynda","rayan","dushen","walid1","cinnie","lucas","thomas","wade","walid2"]
+// let random = Math.ceil(Math.random() * students.length)
+// indexRandom = random -1
+// console.log(students[indexRandom])
 
-
+// 10 - Random and max
+const numbers = []
+for (let i = 0; i < 20; i += 1){
+    randomNumber = Math.ceil(Math.random()*100)
+    numbers.push(randomNumber)
+}
+console.log(numbers)
+let max = 0
+for (let i = 0; i < 20; i += 1){
+    if (numbers[i] > max){
+        max = numbers[i]
+    }
+}
+console.log(max)
