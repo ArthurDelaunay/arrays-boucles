@@ -60,15 +60,20 @@
 // }
 
 // 08 - While
-let total = 0
-const limit = 10
-let i = 0
+// let total = 0
+// const limit = 10
+// let i = 0
 
-while (i < limit){
-    i += 1
-    total += i
-}
-console.log(total)
+// while (i < limit){
+//     i += 1
+//     total += i
+// }
+// console.log(total)
 
+// 09 - Sans boucle
+const students = ["mago","aurélien","arthur","jad","clara","danh","edaly","emad","florent","florez","julien","lynda","rayan","dushen","walid1","cinnie","lucas","thomas","wade","walid2"]
+let random = Math.ceil(Math.random() * students.length)
+indexRandom = random -1
+console.log(students[indexRandom])
 
 
